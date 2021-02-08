@@ -1,0 +1,9 @@
+---
+layout: about
+title: About
+---
+
+
+{% for project in site.data.software_projects %}
+<p>{{project.name}}</p>
+{% endfor %}
