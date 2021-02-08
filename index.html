@@ -1,24 +1,21 @@
 ---
 layout: default
+stylesheet: "/assets/css/home.css"
 ---
 
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-  </head>
-  <body>
-    <h1>Di Zhu</h1>
-    <p>Hello, this is my little online presence in the cyperspace</p>
-    <p>Scroll down to see my writing. Click <a href="/about">here</a> to learn more about me</p>
+<h1>Di Zhu</h1>
+<p>Hello, this is my little online presence in the cyperspace</p>
+<p>Scroll down to see my writing. Click
+  <a href="/portfolio">here</a>
+  to learn more about me</p>
 
-    <ul>
-      {% for post in site.posts %}
-        <li>
-          <h2><a href="{{post.url}}">{{ post.title }}</a></h2>
-          {{ post.excerpt }}
-        </li>
-        {% endfor %}
-    </ul>
-  </body>
-</html>
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <h2>
+        <a href="{{post.url}}">{{ post.title }}</a>
+      </h2>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>

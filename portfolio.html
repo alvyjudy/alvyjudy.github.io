@@ -1,0 +1,15 @@
+---
+layout: about
+title: About
+stylesheet: "/assets/css/portfolio.css"
+---
+
+<h1>Software projects</h1>
+{% for project in site.data.software_projects %}
+  <div>
+    <p>{{project.name}}</p>
+    <p>{{project.description}}</p>
+    <a href="{{project.demo-link}}"></a>
+    <a href="{{project.github-link}}"></a>
+  </div>
+{% endfor %}
