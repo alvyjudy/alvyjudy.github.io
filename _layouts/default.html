@@ -6,12 +6,14 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alvy's writing</title>
-    <link rel="stylesheet" href="/assets/css/stylesheet.scss">
+    <link rel="stylesheet" href="/assets/css/stylesheet.css">
   </head>
   <body>
-    {% include navigation.html %}
-
-    {{ content }}
+    <div class="all-content">
+      {% include navigation.html %}
+      {{ content }}
+    </div>
   </body>
 </html>

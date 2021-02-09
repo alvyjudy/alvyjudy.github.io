@@ -1,0 +1,20 @@
+---
+---
+
+.all-content {
+  margin: auto;
+  max-width: 500px;
+}
+
+.navigation-bar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navigation-bar__navigation-item {
+  text-decoration: none;
+}
+
+.navigation-bar__navigation-item--active {
+  text-decoration: underline;
+}

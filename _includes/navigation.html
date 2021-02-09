@@ -1,4 +1,4 @@
-<nav>
-  <a href="/">Home</a>
-  <a href="/portfolio.html">Portfolio</a>
+<nav class="navigation-bar">
+  <a class="navigation-bar__navigation-item {%if page.url=='/'%}navigation-bar__navigation-item--active{% endif %}" href="/">Home</a>
+  <a class="navigation-bar__navigation-item {%if page.url=='/portfolio.html'%}navigation-bar__navigation-item--active{% endif %}" href="/portfolio.html">Portfolio</a>
 </nav>
