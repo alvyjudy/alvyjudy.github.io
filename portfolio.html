@@ -7,9 +7,15 @@ title: About
 <div>
   {% for project in site.data.projects %}
     <div class="project-card">
-      <img class="project-card__image" src="{{project.image}}">
+      <div class="project-card__image-container">
+        <img class="project-card__image" src="{{project.image}}">
+      </div>
       <div class="project-details">
-        <p>{{project.name}}</p>
+        <h3>{{project.name}}</h3>
+        <a href="{{project.demo-link}}">Demo</a>
+        <a href="{{project.github-link}}">Github</a>
+        <p>Tech stack:
+          {{project.stack}}</p>
         <a href="{{project.demo-link}}"></a>
         <a href="{{project.github-link}}"></a>
         <p>{{project.description}}</p>

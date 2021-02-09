@@ -61,3 +61,34 @@ body {
   height: 3em;
   width: 3em;
 }
+
+// Styles for portfolio page
+
+.project-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 2em auto;
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+  overflow: hidden;
+  height: 30em;
+  width: 100%;
+}
+
+.project-card__image-container {
+  overflow: hidden;
+}
+
+.project-card__image {
+  object-fit: cover;
+  height: 100px;
+}
+
+.project-details {
+
+}
+
+// end style for portfolio page
+
+// Styles for each blog post
+
+// end style for each blog post
