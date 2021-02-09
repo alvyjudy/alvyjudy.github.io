@@ -5,16 +5,42 @@ $light: #74869E;
 $bright: #A3AEB8;
 $primary: #CF9871;
 $secondary: #946334;
+$elevation1: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+
+// style global
 
 body {
   margin: 1em;
   font-family: 'Roboto', sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: $dark;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+
+  & li {
+    margin: 0;
+  }
+
+  & a {
+    color: $dark;
+    font-weight: 800;
+  }
+}
+
 .all-content {
   margin: auto;
   max-width: 500px;
 }
+
+// end style global
+
+// style navigtion bar
 
 .introduction__line1 {
   display: flex;
@@ -62,10 +88,12 @@ body {
   width: 3em;
 }
 
-// Styles for portfolio page
+// end style for navigation bar
+
+// Style portfolio page
 
 .project-card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: $elevation1;
   margin: 2em auto;
   display: grid;
   grid-template-rows: 1fr 3fr;
@@ -83,12 +111,35 @@ body {
   height: 100px;
 }
 
-.project-details {
 
-}
 
 // end style for portfolio page
 
 // Styles for each blog post
 
 // end style for each blog post
+
+// Style all blog posts 
+
+.blog-posts-list__each-post {
+  box-shadow: $elevation1;
+  padding: 1em;
+}
+
+.each-post__detail {
+  display: flex;
+}
+
+.each-post__date {
+  color: $bright;
+  margin: 0.2em;
+  flex: 1 1;
+}
+
+.each-post__teaser {
+  color: $light;
+  margin: 0.2em;
+  flex: 3 1;
+}
+
+// end style for all blog posts 
