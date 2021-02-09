@@ -4,11 +4,16 @@ title: About
 ---
 
 <h1>Software projects</h1>
-{% for project in site.data.software_projects %}
-  <div>
-    <p>{{project.name}}</p>
-    <p>{{project.description}}</p>
-    <a href="{{project.demo-link}}"></a>
-    <a href="{{project.github-link}}"></a>
-  </div>
-{% endfor %}
+<div>
+  {% for project in site.data.projects %}
+    <div class="project-card">
+      <img class="project-card__image" src="{{project.image}}">
+      <div class="project-details">
+        <p>{{project.name}}</p>
+        <a href="{{project.demo-link}}"></a>
+        <a href="{{project.github-link}}"></a>
+        <p>{{project.description}}</p>
+      </div>
+    </div>
+  {% endfor %}
+</div>
