@@ -66,10 +66,12 @@ ul {
   font-size: 1.5em;
   text-decoration: none;
   margin: 0.2em;
+  color: $light;
 }
 
 .navigation-bar__navigation-item--active {
   text-decoration: underline;
+  color: $dark;
 }
 
 .introduction-card {
