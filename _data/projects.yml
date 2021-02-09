@@ -30,3 +30,24 @@
   image: ~
   demo-link: ~
   stack: Jekyll, Ruby, Liquid, SASS
+  description: |
+    A personal blog built with jekyll and liquid, hosted on Github pages 
+    (the one you are looking at right now!) This site is built with 
+    longevity and extensibility in mind. The written content is stored
+    in plain markdown text files whose history can always be viewed on the 
+    repository. Styling and layout are handled by the jekyll static site
+    generator, liquid templating language and SASS, which are independent of
+    the blog content. 
+
+- name: Route finder
+  image: ~
+  demo-link: ~
+  github-link: ~
+  stack: Openstreetmap, leaflet, Mapquest, React
+  description: |
+    A route finder that demonstrates React's ability in integrating
+    with imperative javascript libraries while offering high level and
+    declarative control of the web page. It loads the leaflet library and
+    fetch the data from openstreetmap's public repository, and map the 
+    route data provided by MapQuest API, which is cache-optimized on the 
+    backend.
