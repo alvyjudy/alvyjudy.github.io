@@ -1,4 +1,26 @@
-<nav class="navigation-bar">
-  <a class="navigation-bar__navigation-item {%if page.url=='/'%}navigation-bar__navigation-item--active{% endif %}" href="/">Home</a>
-  <a class="navigation-bar__navigation-item {%if page.url=='/portfolio.html'%}navigation-bar__navigation-item--active{% endif %}" href="/portfolio.html">Portfolio</a>
-</nav>
+<div class="introduction">
+  <div class="introduction__line1">
+    <div class="social-profiles">
+      <img alt="avatar.png" class="social-profiles__element avatar__image" src="/assets/images/profile.png">
+
+      <a class="social-profiles__element" href="https://github.com/alvyjudy">
+        <i class="fab fa-github fa-lg"></i>
+      </a>
+      <a class="social-profiles__element" href="https://www.linkedin.com/in/di-zhu-310665153/">
+        <i class="fab fa-linkedin-in fa-lg"></i>
+      </a>
+    </div>
+    <nav class="navigation-bar">
+      <a class="navigation-bar__navigation-item {%if page.url=='/'%}navigation-bar__navigation-item--active{% endif %}" href="/">Writing</a>
+      <a class="navigation-bar__navigation-item {%if page.url=='/portfolio.html'%}navigation-bar__navigation-item--active{% endif %}" href="/portfolio.html">Portfolio</a>
+    </nav>
+  </div>
+
+  <div class="introduction__line2">
+    {%if page.url == "/"%}
+    <p>Hello I'm Di Zhu. You can find my writing and portfolio here:)</p>
+    {%endif%}
+  </div>
+
+  <hr>
+</div>
