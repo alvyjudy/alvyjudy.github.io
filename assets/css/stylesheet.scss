@@ -1,9 +1,10 @@
 ---
 ---
+
 $dark: #253345;
-$light: #74869E;
-$bright: #A3AEB8;
-$primary: #CF9871;
+$light: #74869e;
+$bright: #a3aeb8;
+$primary: #cf9871;
 $secondary: #946334;
 $elevation1: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
 
@@ -11,7 +12,7 @@ $elevation1: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
 
 body {
   margin: 1em;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 a {
@@ -98,7 +99,7 @@ ul {
   box-shadow: $elevation1;
   margin: 2em auto;
   display: grid;
-  grid-template-rows: 1fr 3fr;
+  grid-template-rows: 2fr 3fr;
   overflow: hidden;
   height: 30em;
   width: 100%;
@@ -110,14 +111,12 @@ ul {
 
 .project-card__image {
   object-fit: cover;
-  height: 100px;
+  width: 100%;
 }
 
 .project-details {
   padding: 1em;
 }
-
-
 
 // end style for portfolio page
 
@@ -125,7 +124,7 @@ ul {
 
 // end style for each blog post
 
-// Style all blog posts 
+// Style all blog posts
 
 .blog-posts-list__each-post {
   box-shadow: $elevation1;
@@ -148,4 +147,4 @@ ul {
   flex: 3 1;
 }
 
-// end style for all blog posts 
+// end style for all blog posts
