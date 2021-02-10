@@ -20,6 +20,19 @@
   description: |
     An e-commerce bubble tea themed website that allow user to perform CRUD.
 
+- name: Route finder
+  image: "/assets/images/route-finder.png"
+  demo-link: https://alvy-route-finder.herokuapp.com/
+  github-link: https://github.com/alvyjudy/route-finder
+  stack: Openstreetmap, leaflet, Mapquest
+  description: |
+    A route finder that demonstrates React's ability in integrating
+    with imperative javascript libraries while offering high level and
+    declarative control of the web page. It loads the leaflet library and
+    fetch the data from openstreetmap's public repository, and map the 
+    route data provided by MapQuest API, which is cache-optimized on the 
+    backend.
+
 - name: Personal blog
   image: ~
   demo-link: https://alvyjudy.github.io
@@ -33,16 +46,3 @@
     repository. Styling and layout are handled by the jekyll static site
     generator, liquid templating language and SASS, which are independent of
     the blog content.
-
-- name: Route finder
-  image: ~
-  demo-link: ~
-  github-link: ~
-  stack: Openstreetmap, leaflet, Mapquest
-  description: |
-    A route finder that demonstrates React's ability in integrating
-    with imperative javascript libraries while offering high level and
-    declarative control of the web page. It loads the leaflet library and
-    fetch the data from openstreetmap's public repository, and map the 
-    route data provided by MapQuest API, which is cache-optimized on the 
-    backend.
