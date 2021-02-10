@@ -1,5 +1,5 @@
 - name: Event scheduling app
-  image: "/assets/images/patrick.png"
+  image: "/assets/images/calend-app.png"
   demo-link: ~
   github-link: ~
   stack: React, ExpressJS, MongoDB, Node
