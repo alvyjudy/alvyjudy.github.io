@@ -98,10 +98,7 @@ ul {
 .project-card {
   box-shadow: $elevation1;
   margin: 2em auto;
-  display: grid;
-  grid-template-rows: 2fr 3fr;
   overflow: hidden;
-  height: 30em;
   width: 100%;
 }
 
