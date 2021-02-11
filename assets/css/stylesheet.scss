@@ -135,6 +135,10 @@ p {
   padding: 1em;
 }
 
+.each-post__title {
+  text-decoration: none;
+}
+
 .each-post__detail {
   display: flex;
   align-items: center;
