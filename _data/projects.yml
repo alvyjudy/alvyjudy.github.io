@@ -2,15 +2,12 @@
   image: "/assets/images/calend-app.png"
   demo-link: ~
   github-link: ~
-  stack: React, ExpressJS, MongoDB, Node
+  stack: MERN, Google OAuth, Stripe, Amazon S3, Sendgrid
   description: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris ni
-    si ut aliquip ex ea commodo consequat. Duis aute irure dolor in repreh
-    enderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui offi
-    cia deserunt mollit anim id est laborum.
+    An event scheduling app that allows user to easily schedule and book
+    appointment, removing the need for back and forth email and phone calls.
+    It comes with additional features such as email notification, rescheduling
+    and teams.
 
 - name: Drink shop e-commerce website
   image: "/assets/images/drink-shop.png"
