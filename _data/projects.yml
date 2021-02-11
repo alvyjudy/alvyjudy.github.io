@@ -31,7 +31,6 @@
     backend.
 
 - name: Personal blog
-  image: "/assets/images/blog.png"
   demo-link: https://alvyjudy.github.io
   girhub-link: https://github.com/alvyjudy/alvyjudy.github.io
   stack: Jekyll, Ruby, Liquid
