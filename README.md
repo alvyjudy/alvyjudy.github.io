@@ -17,3 +17,18 @@ Then, run `bundle update`, which will install the dependency from `Gemfile`.
 Afterwards, run `bundle exec jekyll serve --livereload` to spin up the
 development server. Or push the master branch to github, which will build
 the site and serve it.
+
+To preview draft, run `bundle exec jekyll serve --livereload --drafts`
+
+## Blogging
+
+Each post need the following key value pair in the front matter
+```
+layout: post
+title: 
+teaser: |
+  optionally
+  multi
+  paragraph
+  text
+```
