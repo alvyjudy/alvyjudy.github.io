@@ -21,23 +21,7 @@ a {
   color: $primary;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
 
-  & li {
-    margin: 0;
-  }
-
-  & a {
-    color: $dark;
-    font-weight: 800;
-  }
-
-  & p {
-    line-height: 1;
-  }
-}
 
 .all-content {
   margin: auto;
@@ -158,6 +142,28 @@ p {
   color: $light;
   margin: 0.2em;
   flex: 3 1;
+}
+
+.blog-posts-list {
+  list-style-type: none;
+  padding: 0;
+
+  & li {
+    margin: 0;
+  }
+
+  & a {
+    color: $dark;
+    font-weight: 800;
+  }
+
+  & p {
+    line-height: 1;
+  }
+
+  & h2 {
+    margin-top: 0;
+  }
 }
 
 // end style for all blog posts
