@@ -26,8 +26,8 @@
     A route finder that demonstrates React's ability in integrating
     with imperative javascript libraries while offering high level and
     declarative control of the web page. It loads the leaflet library and
-    fetch the data from openstreetmap's public repository, and map the 
-    route data provided by MapQuest API, which is cache-optimized on the 
+    fetch the data from Openstreetmap's public repository, and map the 
+    geocoding data provided by MapQuest API, which is cache-optimized on the 
     backend.
 
 - name: Personal blog
