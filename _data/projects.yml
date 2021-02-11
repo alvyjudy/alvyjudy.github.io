@@ -1,7 +1,7 @@
 - name: Event scheduling app
   image: "/assets/images/calend-app.png"
   demo-link: ~
-  github-link: ~
+  github-link: https://github.com/hatchways/team-yugioh
   stack: MERN, Google OAuth, Stripe, Amazon S3, Sendgrid
   description: |
     An event scheduling app that allows user to easily schedule and book
