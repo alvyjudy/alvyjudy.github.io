@@ -6,7 +6,7 @@ teaser : a tug of war between business logic and software craftsmanship
 
 When I first started coding, I actually followed the idea of "do not re-invent
 the wheel" and "do not repeat" yourself quite stringently. This wasn't due to
-a conscious efforts but rather lack of skills. I couldn't really accomplish
+conscious efforts but rather lack of skills. I couldn't really accomplish
 much without using third party libraries, and my code was simple, so there 
 wasn't much repetition to start with. Later, as my skills grew, so did the
 temptation to re-invent the wheel. It felt really good indeed, when I told
