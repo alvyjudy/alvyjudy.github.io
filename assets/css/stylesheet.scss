@@ -4,7 +4,7 @@
 $dark: #253345;
 $light: #74869e;
 $bright: #a3aeb8;
-$primary: #cf9871;
+$primary: #d47b57;
 $secondary: #946334;
 $elevation1: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
 $elevation2: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -17,8 +17,8 @@ body {
 }
 
 a {
-  text-decoration: none;
-  color: $dark;
+  text-decoration: underline;
+  color: $primary;
 }
 
 ul {
@@ -61,6 +61,7 @@ p {
 
 .social-profiles__element {
   margin: 0.2em;
+  color: $light;
 }
 
 .navigation-bar {
