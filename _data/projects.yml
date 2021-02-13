@@ -33,7 +33,7 @@
 - name: Personal blog
   demo-link: https://alvyjudy.github.io
   girhub-link: https://github.com/alvyjudy/alvyjudy.github.io
-  stack: Jekyll, Ruby, Liquid
+  stack: Jekyll, Liquid
   description: |
     A personal blog built with jekyll and liquid, hosted on Github pages 
     (the one you are looking at right now!) This site is built with 
