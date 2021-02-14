@@ -58,6 +58,55 @@ In the top level `package.json`, we define the workspaces as follows:
   }
 ```
 
-> important note: the name of the workspaces (inside the array) must match
+> note: the name of the workspaces (inside the array) must match
 > the `name` field defined in their respective `package.json`, rather than
 > the folder name. Also, "private" key must be set to true
+
+When this is set up, commands in the sub folder can be invoked directly from
+the top levels. The following two is equivalent:
+
+Inside `full-stack-app/client`:
+
+```
+$ yarn add some-module
+$ yarn run start
+```
+
+Inside `full-stack-app/`:
+
+```
+$ yarn workspace client add some-module
+$ yarn workspace client run start
+```
+
+Running `yarn install` in the top folder will also install the dependencies
+from both subfolders. Additionally, it will group the overlapping dependency
+into one top level `node_modules`, and save the distinct ones in their respective
+`node_modules`.
+
+The same works for custom command as well. If we have specified the following
+in the `server` subfolder's `package.json`:
+
+```
+{
+  "scripts":{
+    "customCommand":"echo hi"
+  }
+}
+```
+
+We can invoke it from the top level folder by calling
+`yarn workspace server run customCommand`.
+
+This way we fulfill the heroku's requirement to have a `package.json` in the
+root. And we can set up the build and start script to follow its recommended
+workflow:
+
+```
+{
+  "scripts":{
+    "build": "yarn workspace client run build",
+    "start": "yarn workspace server run start"
+  }
+}
+```
