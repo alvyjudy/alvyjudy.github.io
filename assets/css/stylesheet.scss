@@ -55,17 +55,20 @@ h5 {
 .introduction__line1 {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .social-profiles {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .navigation-bar {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .navigation-bar__navigation-item {
