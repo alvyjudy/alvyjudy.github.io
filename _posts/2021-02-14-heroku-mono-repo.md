@@ -4,6 +4,8 @@ title: Fullstack mono repo deployment on Heroku node.js runtime
 teaser: |
 ---
 
+![heroku.png](/assets/images/heroku.jpg)
+
 When building a full stack app (nodeJS), it is common to use the mono repo layout:
 
 ```
